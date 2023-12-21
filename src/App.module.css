@@ -1,0 +1,57 @@
+.title {
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.countries_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
+}
+
+.country {
+  padding: 10px;
+  box-shadow: -6px 0 10px rgba(0, 0, 0, 0.425);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.country:hover {
+  background-color: rgb(2, 153, 153);
+  color: white;
+}
+
+.details_country {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  z-index: 10;
+  width: 300px;
+  height: 70vh;
+  border-radius: 10px;
+  background-color: red;
+  box-shadow: -10px 6px 10px rgba(0, 0, 0, 0.425);
+  background-color: white;
+  padding: 15px 30px;
+}
+
+.details_btn {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  background-color: rgb(30, 113, 236);
+  cursor: pointer;
+}
+
+.prop {
+  color: rgb(30, 113, 236);
+  font-weight: 500;
+}
